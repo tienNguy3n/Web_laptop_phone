@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.col-4{
+    width: 23.6%;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Header top */
+
+.header{
+    width: 100%;
+    min-width: 1263px;
+}
+
+.hd-top{
+    height: 64px;
+    background-color: #fff;
+    position: relative;
+}
+
+.logo-img{
+    margin-right: 24px;
+    padding-right: 32px;
+    padding-left: 16px;
+    height: 100%;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.hd-search{
+    padding-top: 10px;
+    float: left;
+}
+
+.hd-search form{
+    width: 500px;
+    position: relative;
+}
+
+.hd-search form input{
+    width: 100%;
+    height: 38px;
+    padding-left: 8px;
+    margin-top: 5px;
+    border: 2px solid #7bcfff;
+    border-radius: 15px;
+}
+
+.hd-search form i{
+    width: 58px;
+    height: 38px;
+    padding-top: 12px;
+    padding-left: 8px;
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    cursor: pointer;
+}
+
+.hd-top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.hd-top-right li{
+    height: 56px;
+    margin: 4px 8px 16px 0;
+    border: 2px solid #7bcfff;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.hd-top-right li a{
+    width: 110px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.hd-top-right li:first-child a{
+    width: 164px;
+}
+
+.hd-top-right li a i{
+    font-size: 20px;
+    color: #7bcfff;
+    padding-right: 8px;
+}
+
+/* Header bottom */
+
+.hd-bot{
+    height: 40px;
+    background-color: #7bcfff;
+    text-align: center;
+}
+
+.hd-menu{
+    padding: 0 16px;
+}
+
+.hd-menu > li{
+    margin: 0 24px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.hd-menu > li > a{
+    line-height: 40px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+
+.hd-menu li a:hover{
+    opacity: 0.5;
+}
+
+.hd-menu li a i{
+    margin-right: 4px;
+}
+
+.hd-menu li:hover .submenu{
+    display: block;
+}
+
+.hd-menu .submenu{
+    width: 500px;
+    line-height: 32px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-top: none;
+    list-style: none;
+    position: absolute;
+    float: left;
+    display: none;
+}
+
+.hd-menu .title-sub-menu{
+    text-align: left;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: auto;
+}
+
+.hd-menu .submenu a{
+    width: 130px;
+    margin-right: 32px;
+    color: #3d3d3d;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.hd-menu .hdcol-1{
+    width: 180px;
+}
+
+/* Slider */
+
+.slider{
+    height: 532px;
+    width: 1200px;
+    margin: 16px auto;
+    padding: 8px;
+    background-color: #f4f4f4;
+    border: 2px solid #7bcfff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.slider .img-right img{
+    width: 24%;
+    position: absolute;
+    cursor: pointer;
+    right: 8px;
+}
+
+.slider .top img{
+    top: 8px;
+}
+
+.slider .mid img{
+    top: 180px;
+}
+
+.slider .bot img{
+    top: 340px;
+}
+
+/* Carousel */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#carousel-inner{
+    width: 1267px;
+    margin-left: -210px;
+}
+
+#carousel-control-left{
+    left: -20px;
+}
+
+#carousel-control-right{
+    right: 274px;
+}
+
+#carousel-indicators{
+    left: 430px;
+}
+
+/* Content */
+
+.content{
+    background-color: #7bcfff;
+    padding: 16px 32px;
+    width: 100%;
+    min-width: 1263px;
+}
+
+.content .block-sale{
+    height: 400px;
+    margin: 16px 0;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.content .block-default{
+    height: 700px;
+}
+
+.content .heading{
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #cd1817;
+    font-weight: bold;
+}
+
+.content .img-phone{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid #7bcfff;
+    border-radius: 15px;
+}
+
+.content .img-phone span{
+    width: 100%;
+    height: 60%;
+    line-height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.content .img-phone img{
+    height: 100%;
+}
+
+.content .product{
+    height: 300px;
+    margin: 0px 8px;
+    float: left;
+    position: relative;
+}
+
+.content .block-default .product{
+    margin-bottom: 16px;
+}
+
+.content .product-info{
+    position: absolute;
+    top: 180px;
+    left: 16px;
+}
+
+.content .price-new{
+    font-size: 28px;
+    font-style: italic;
+    color: #cd1817;
+    text-shadow: 5px 5px 5px #ccc;
+    margin: 4px 0 0 0;
+    font-weight: bold;
+}
+
+.content .price-old{
+    color: #888;
+    text-decoration: line-through;
+}
+
+.content .item-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content .banner{
+    background: url(/Web_laptop_phone/assets/img/banner/banner2.jpg) center no-repeat;
+    height: 668px;
+    padding: 176px 52px;
+    text-align: center;
+}
+
+.content #bn1{
+    width: 100%;
+}
+
+.content #bn8{
+    width: 100%;
+}
+
+.content .banner-list{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.content .banner-list li{
+    width: 250px;
+    margin: 0 12px 20px 12px;
+    display: inline-block;
+}
+
+.content .banner-list a{
+    display: block;
+}
+
+.content .banner-list img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    min-width: 1263px;
+}
+
+.footer .wrap{
+    margin: 32px;
+}
+
+.footer .ftcol-1{
+    width: 24%;
+    float: left;
+}
+
+.footer .ft-ul{
+    list-style: none;
+}
+
+.footer .ft-ul li{
+    margin-bottom: 8px;
+}
+
+.footer .ftcol-1 p{
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer .ftcol-1 .ft-phone-number{
+    font-size: 20px;
+    font-weight: bold;
+    color: #cd1817;
+    text-decoration: none;
+}
+
+.footer .ftcol-1 i{
+    font-size: 32px;
+    color: #337ab7;
+}
