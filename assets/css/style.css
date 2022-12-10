@@ -108,6 +108,89 @@
     padding-right: 8px;
 }
 
+.hd-taikhoan.open{
+    display: flex;
+}
+
+.hd-taikhoan{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container-taikhoan{
+    width: 500px;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    background-color: #fff;
+}
+
+.taikhoan-title{
+    font-size: 16px;
+    color: #7bcfff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.taikhoan-close{
+    width: 36px;
+    color: #ccc;
+    font-size: 24px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.taikhoan-close:hover{
+    color: #888;
+}
+
+.input-password{
+    margin: 8px 0;
+    text-align: right;
+}
+
+.input-password input{
+    margin-bottom: 4px;
+}
+
+.container-taikhoan .input-submit{
+    font-size: 16px;
+    background-color: #7bcfff;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container-taikhoan .input-submit:hover{
+    opacity: 0.8;
+}
+
+.login-another-method{
+    font-size: 16px;
+}
+
+.login-another-method button{
+    padding: 8px;
+}
+
+.btn-login-gg{
+    margin-bottom: 8px;
+}
+
+.btn-login-gg img{
+    width: 20px;
+}
+
 /* Header bottom */
 
 .hd-bot{
@@ -148,6 +231,7 @@
 .hd-menu li:hover .submenu{
     display: block;
 }
+
 
 .hd-menu .submenu{
     width: 500px;
