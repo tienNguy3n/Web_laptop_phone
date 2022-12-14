@@ -122,6 +122,7 @@
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
 
 .container-taikhoan{
@@ -324,6 +325,7 @@
 
 #carousel-indicators{
     left: 430px;
+    z-index: 1;
 }
 
 /* Content */
