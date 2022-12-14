@@ -35,7 +35,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" class="js-login">
                         <i class="fa-regular fa-user"></i>
                         Tài khoản
                     </a>
@@ -600,5 +600,45 @@
             </div>
         </div>
     </div>
+
+    <div class="hd-taikhoan js-modal">
+        <div class="container-taikhoan js-container">
+            <div class="taikhoan-close js-close">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+
+            <div class="taikhoan-title">
+                <p>Đăng nhập tài khoản</p>
+            </div>
+
+            <form method="post">
+                <input type="text" class="form-control" name="username" placeholder="Nhập email hoặc số điện thoại">
+                <div class="input-password">
+                    <input type="password" class="form-control" name="password" placeholder="Nhập mật khẩu">
+                    <a href="#">Quên mật khẩu?</a>
+                </div>
+                <input type="submit" class="form-control input-submit" name="submit" value="Đăng nhập">
+            </form>
+
+            <hr style="border-color: #ccc">
+
+            <div class="login-another-method">
+                <div class="btn-login-gg">
+                    <button>
+                        <img src="/Web_laptop_phone/assets/font/google.png" alt="google">
+                        <span>Đăng nhập bằng tài khoản Google</span>
+                    </button>
+                </div>
+
+                <div class="login-question">
+                    <span>Bạn chưa có tài khoản? </span>
+                    <a href="#">Đăng ký ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Web_laptop_phone/assets/js/login.js"></script>
+    <script src="/Web_laptop_phone/assets/js/slider.js"></script>
 </body>
 </html>
