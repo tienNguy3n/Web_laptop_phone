@@ -120,6 +120,7 @@
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
 }
 
 .container-taikhoan{
@@ -752,6 +753,46 @@
 
 .st-pd-btn .btn--half {
     width: calc((100% - 5px)/ 2)
+}
+
+.btn-buy.open{
+    display: flex;
+}
+
+.btn-buy{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+.container-buy{
+    width: 500px;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    background-color: #fff;
+}
+
+.btn-buy-close{
+    width: 36px;
+    color: #ccc;
+    font-size: 24px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btn-buy-close:hover{
+    color: #888;
 }
 
 .st-pd-normal .hotline{
